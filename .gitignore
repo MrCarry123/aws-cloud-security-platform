@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Generated data/models
+generated_events.json
+*.pkl
+results.json
+
+# macOS
+.DS_Store
+
+# React later
+node_modules/
+dist/
+build/

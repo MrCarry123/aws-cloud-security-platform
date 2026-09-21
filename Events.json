@@ -1,0 +1,20 @@
+[
+  {
+    "user": "admin",
+    "action": "login",
+    "failed_logins": 15,
+    "hour": 3,
+    "is_root": true,
+    "s3_public": false,
+    "cloudtrail_disabled": false
+  },
+  {
+    "user": "alice",
+    "action": "upload_file",
+    "failed_logins": 0,
+    "hour": 14,
+    "is_root": false,
+    "s3_public": true,
+    "cloudtrail_disabled": false
+  }
+]
