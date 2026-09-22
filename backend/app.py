@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from security_detector import analyze_event
-from anomaly_detector import detect_anomaly
-from database import SessionLocal
+from backend.security_detector import analyze_event
+from backend.anomaly_detector import detect_anomaly
+from backend.database import SessionLocal
 from sqlalchemy import text
-from risk_combiner import combine_risk
+from backend.risk_combiner import combine_risk
 
 
 app = FastAPI()

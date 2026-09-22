@@ -1,7 +1,7 @@
 import boto3
 import json
-from aws_event_parser import parse_aws_event
-from aws_security_detector import analyze_aws_event
+from backend.aws_event_parser import parse_aws_event
+from backend.aws_security_detector import analyze_aws_event
 
 sqs = boto3.client(
     "sqs",

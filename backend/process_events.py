@@ -1,6 +1,6 @@
 import json
 from collections import Counter
-from security_detector import analyze_event
+from backend.security_detector import analyze_event
 
 
 with open("generated_events.json", "r") as file:
